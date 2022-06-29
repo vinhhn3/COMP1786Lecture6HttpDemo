@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">COMP1786Lecture6HttpDemo</string>
-    <string name="url">https://www.w3.org/standards/agents/</string>
+    <string name="url">https://stuiis.cms.gre.ac.uk/COMP1424CoreWS/olympic</string>
+    <string name="json">
+        {\"eventName\":\"mens 100 metres\",
+        \"resultList\":[{\"medalColour\":\"bronze\",
+        \"athleteName\":\"gatlin\"},
+        {\"medalColour\":\"silver\",
+        \"athleteName\":\"blake\"},
+        {\"medalColour\":\"gold\",
+        \"athleteName\":\"bolt\"}]}
+    </string>
+
 </resources>
