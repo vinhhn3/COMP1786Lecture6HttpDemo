@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">COMP1786Lecture6HttpDemo</string>
-    <string name="url">http://www.w3.org.standards/agents/</string>
+    <string name="url">https://www.w3.org/standards/agents/</string>
 </resources>
