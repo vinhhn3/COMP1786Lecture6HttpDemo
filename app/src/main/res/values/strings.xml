@@ -1,14 +1,12 @@
 <resources>
     <string name="app_name">COMP1786Lecture6HttpDemo</string>
-    <string name="url">https://stuiis.cms.gre.ac.uk/COMP1424CoreWS/olympic</string>
+    <string name="url">https://jsonplaceholder.typicode.com/posts</string>
     <string name="json">
-        {\"eventName\":\"mens 100 metres\",
-        \"resultList\":[{\"medalColour\":\"bronze\",
-        \"athleteName\":\"gatlin\"},
-        {\"medalColour\":\"silver\",
-        \"athleteName\":\"blake\"},
-        {\"medalColour\":\"gold\",
-        \"athleteName\":\"bolt\"}]}
+        {
+        \"title\":\foo\",
+        \"body\":\"bar\",
+        \"userId\":1,
+        }
     </string>
 
 </resources>

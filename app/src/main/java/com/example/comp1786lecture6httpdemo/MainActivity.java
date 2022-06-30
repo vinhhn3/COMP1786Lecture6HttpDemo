@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 out.print(postParameters);
                 out.close();
                 int responseCode = con.getResponseCode();
-                if (responseCode == HttpURLConnection.HTTP_OK) {
+                if (responseCode == HttpURLConnection.HTTP_OK || responseCode == HttpURLConnection.HTTP_CREATED) {
                     response = readStream(con.getInputStream());
                 } else {
                     response = "Error contacting server: " + responseCode;
